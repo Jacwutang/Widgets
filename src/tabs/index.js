@@ -12,7 +12,6 @@ class Tabs extends Component{
   }
 
   handleClick(idx){
-    console.log("CLICKED", idx);
     this.setState({selectedTab: idx});
   }
 

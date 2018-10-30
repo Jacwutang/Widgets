@@ -3,6 +3,7 @@ import './App.css';
 import Weather from './weather';
 import Clock from './clock';
 import Tabs from './tabs';
+import AutoComplete from './autocomplete';
 import './stylesheets/index.css';
 
 class App extends Component {
@@ -10,7 +11,18 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Weather />
+        <AutoComplete
+        names=
+        {
+          [
+            "John",
+            "Joe",
+            "Abby",
+            "Anna",
+            "Zyzzbra"
+          ]
+        }
+        />
         <Clock />
         <Tabs
         headers = {
