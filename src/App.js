@@ -12,7 +12,13 @@ class App extends Component {
       <div>
         <Weather />
         <Clock />
-        <Tabs />
+        <Tabs
+        headers = {
+        [
+        {"title": "Tab 1", "content": "Hello World"},
+        {"title": "Tab 2", "content": "Hello World Part 2"}
+        ]}
+        />
       </div>
     );
   }
